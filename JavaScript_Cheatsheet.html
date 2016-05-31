@@ -1,0 +1,228 @@
+<Doctype <!DOCTYPE html>
+<html>
+<head>
+	<title>Cheatsheet JavaScript</title>
+
+<!-- Bootstrap grid -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Font -->
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+	
+body{
+	font-family: Roboto
+	}
+
+.col-md-2{
+	font-style: bold;
+}
+</style>
+
+</head>
+
+
+<body>
+
+<h1><b><u>JavaScript cheatsheet</u></b></h1>
+<hr>
+<div class="row">   
+	<div class="col-md-2"><b>JS Cheats</b></div>
+	<div class="col-md-4"><b>Discription</b></div>
+	<div class="col-md-6"><b>Example</b></div>
+</div>
+<hr>
+<div class="row">   
+	<div class="col-md-2">// 1.1 Variables</div>
+	<div class="col-md-4">Containers for storing data values.<br>Can contain plain text, numbers, a boolean value or an array</div>
+	<div class="col-md-6">Writen as (var)</div>
+</div>
+<hr>
+<div class="row">   
+	<div class="col-md-2">// 1.2 Debugging | Alert</div>
+	<div class="col-md-4">On screen message pop-up</div>
+	<div class="col-md-6">Code:<br> Alert("Text goes here"); = </div>
+</div>
+<hr>
+<div class="row">   
+	<div class="col-md-2">// 1.2 Debugging | Comments</div>
+	<div class="col-md-4">To test which code does what, you can turn of pieces of your code and see what is controled by those specifie lines of code.</div>
+	<div class="col-md-6">Quick key:<br> cmd + / (same as html)</div>
+</div>
+<hr>
+<div class="row">   
+	<div class="col-md-2">// 1.2 Debugging | Console</div>
+	<div class="col-md-4">A built-in tool in Google Chrome to run JavaScript code directly. The Console shows alerts or comments.</div>
+	<div class="col-md-6">Quick key:<br> Alt + cmd + J, to open console in Google Chrome.<br>Code:<br>Use "console.log()" to display JavaScript values in the debugger window.</div>
+</div>
+<hr>
+<div class="row">   
+	<div class="col-md-2">// 1.3 Data types | String</div>
+	<div class="col-md-4">Javascript uses a string, inside quotiation.<br>Text between the quotations is used as plain text without any value.</div>
+	<div class="col-md-6">Code: <br>var Name = "Stefan Meilof";</div>
+</div>
+<hr>
+<div class="row">   
+	<div class="col-md-2">// 1.3 Data types | Numbers</div>
+	<div class="col-md-4">Javascript recognizes numbers automaticaly, and can use them directly for mathematical purposes.<br>If you want the numbers to be used as plain text you can put the numbers between quotations</div>
+	<div class="col-md-6">Code:<br>var Age = 27;<br><br>Javascript automatically recognizes numbers and can do math with them.<br>var x = 4;<br>var y = 8;<br>var z = x + y;</div>
+</div>
+<hr>
+<div class="row">   
+	<div class="col-md-2">// 1.3 Data types | Boolean</div>
+	<div class="col-md-4">Javascript recognizes two possible values: TRUE or FALSE<br>used for testing arguments.</div>
+	<div class="col-md-6">Example at 1.5 Testing</div>
+</div>
+<hr>
+<div class="row">   
+	<div class="col-md-2">// 1.3 Data types | Undefined</div>
+	<div class="col-md-4">Javascript doesn't recognize a value</div>
+	<div class="col-md-6"></div>
+</div>
+<hr>
+<div class="row">   
+	<div class="col-md-2">// 1.4 Arrays</div>
+	<div class="col-md-4">Used to store a collection of data in a single variable. It contains a list of elements, these can be with differend datatypes. Can also contain variables.<br><br>Array indexes start with 0. So [0] is the first element in the array, [1] the second element, etc. 
+</div>
+	<div class="col-md-6">Code:<br>var Drink = ["Beer", "Wine", "Cocktails"]<br>var Holiday = ["Beach", "City", "Snow"]</div>
+</div>
+<hr>
+<div class="row">   
+	<div class="col-md-2">// 1.5 Testing</div>
+	<div class="col-md-4">See if an argument is True of False using the If and Else statement.<br>
+	If = outcome true, stuff wil happen<br>
+	Else if = outcome if-statement not true, test a second argument<br>
+	Else = (all previous test) outcome not true, other stuff happens <br>
+	<br>Outcome is always Boolean ("True or False")</div>
+	<div class="col-md-6">Script:<br>var rand;<br>
+rand=5<br>
+<br>
+if (rand > 10) {<br>
+	alert(rand + "is greater than 10");<br>
+}<br>
+else if (rand===5) {<br>
+   alert("Yes, "+rand+" really is equal to 5, so this will show up")<br>}<br>
+else {<br>
+   alert(rand +" is not greater than 10"); <br>
+}</div>
+</div>
+<hr>
+<div class="row">   
+	<div class="col-md-2">// 1.6 Logic</div>
+	<div class="col-md-4">Create a order or sequence for execution of your code. Logical operators are used for boolean logic where a boolean value returns depending on the outcome of an argument. Which can trigger a next argument, statement or (re)action.</div>
+	<div class="col-md-6"></div>
+</div>
+<hr>
+<div class="row">   
+	<div class="col-md-2">// 1.7 Function</div>
+	<div class="col-md-4">A way to encapsulate code for later use. Outcome of arguments can be used as variables inside a function. A value, which can be used later on (or displayed immediately)</div>
+	<div class="col-md-6"></div>
+</div>
+<hr>
+<h1><b><u><br>JavaScript examples</u></b></h1>
+<hr>
+<div class="row">   
+	<div class="col-md-4">
+		<h4>// Example 1:<br> The Console sings "99 bottles of Beer"</h4>
+		If you open the console, using Cmd + Alt + J you can see the console sang the complete '99 bottles of beer on the wall' song for you. <br>
+		<br>
+		<br>
+		<pre><code>
+<b>Used Script:</b>
+
+for (var i = 100; i > 0; i--) { 
+	
+console.log (i + " bottles of beer on the wall," + i + " bottles of beer... 
+take one down, pass it around," + (i - 1) + " bottles of beer on the wall!");
+}
+ 			    
+console.log ("No more bottles of beer on the wall, no more bottles of beer.
+Go to the store and buy some more, 99 bottles of beer on the wall.");
+		</code></pre>
+
+		<script type="text/javascript"> 
+		for (var i = 100; i > 0; i--) { 
+		console.log (i + " bottles of beer on the wall," + i + " bottles of beer... take one down, pass it around,"
+			+ (i - 1) + " bottles of beer on the wall!");
+		}
+     
+		console.log ("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.");
+		</script>
+		<hr>
+	</div>
+
+	<div class="col-md-4">
+		<h4>// Example 2:<br>Change html content with the click of a button</h4>
+		<p id="example">JavaScript will change this HTML content on the page. When you push the button below.</p>
+		<br>
+		<button type="button" 
+			onclick="document.getElementById('example').innerHTML = 'As you can see all the previous content disappeared and is replaced by this piece of new text.'"> 
+			Push the Button!</button>
+		<br>
+		<br>
+		<pre><code>
+<b>Used Script:</b>
+
+id="example"
+ JavaScript will change this HTML content on the page. When you push the button below.
+
+button type="button" 
+ onclick="document.getElementById('example').innerHTML = 'As you can see all the previous content disappeared and is replaced by this piece of new text.'" 
+
+Push the Button! /button
+		</code></pre>
+		<hr>
+	</div>
+		
+	<div class="col-md-4">
+		<h4>// Example 3:<br>Push message with a selfwriten text</h4>
+		<br>
+		<script type="text/javascript"> 
+		var input2alert; 
+		function onload() { 
+		input1 = document.getElementById('input1'); 
+		} function alert1(){ 
+		alert(input1.value); 
+		} 
+		</script> 
+
+		<div onload="onload();"> 
+			<input type="text" value="" id="input1"/> 
+			<input type="button" value=" Show me this text in a pop-up " onclick="alert1();"/> 
+		</div>
+		<br>
+		<br>
+		<pre><code>
+<b>Used Script:</b>
+
+var inputAlert; 
+function onload() { 
+input = document.getElementById('input'); 
+} 
+
+function alert(){ 
+alert(input.value); 
+} 
+
+div onload="onload();"
+
+input type="text" id="input"
+input type="button" value="Show me this text in a pop-up" onclick="alert();"
+
+		</code></pre>
+
+		<hr>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
